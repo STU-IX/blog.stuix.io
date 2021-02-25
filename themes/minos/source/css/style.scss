@@ -93,7 +93,7 @@ a.tag.article-tag {
         }
     }
 
-    .article-entry {
+    &:not(:last-child) .article-entry {
         margin-bottom: 3rem;
 
         h1,
@@ -363,6 +363,7 @@ a.tag.article-tag {
 }
 
 .footer {
+    padding: 0rem 1.5rem 6rem;
     font-size: .9rem;
     background: transparent;
 
